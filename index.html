@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lesson 10 Final</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,900&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <h1>Create Your Own Pizza</h1>
+        <div class="createOrder">
+            <h3>Available Crusts</h3>
+            <p>Original</p>
+            <p>Thin Crust</p>
+            
+            <h3>Available Sauces</h3>
+            <p>Classic Tomato</p>
+            <p>Spicy Marinara</p>
+            <p>White Garlic Sauce</p>
+        
+            <h3>Available Toppings</h3>
+            <p>Chicken</p>
+            <p>Pepperoni</p>
+            <p>Cheese</p>
+            <p>Mushrooms</p>
+            <p>Baby Spinach</p>
+            <p>Olives</p>
+        </div>
+
+        <br/>
+        <br/>
+
+        <div class="form">
+            <form>
+                <div>
+                    <label>Choose Your Crust:</label>
+                    <input type="text" id="crust" />
+                </div>
+                <br/>
+                <div>
+                    <label>Choose Your Sauce:</label>
+                    <input type="text" id="sauce" />
+                </div>
+                <br/>
+                <div>
+                    <label>Topping 1:</label>
+                    <input type="text" id="topping1" />
+                    <label>Topping 2:</label>
+                    <input type="text" id="topping2" />
+                    <label>Topping 3:</label>
+                    <input type="text" id="topping3" />
+                </div>
+                <br/>
+                <button type="submit" id="btn">Create Order</button>
+            </form>
+        </div>
+
+        <br/>
+        <br/>
+
+        <div class="order">
+            <p>Completed Pizza Order:</p>
+            <div id="pizzaOrder"></div>
+            <div id="toppings"></div>
+
+            <br/>
+
+            <p>Sales Total:</p>
+            <div id="total">$</div>
+        </div>
+        
+        <script src="script.js"></script>
+    </body>
+    
+
+
+</html>
